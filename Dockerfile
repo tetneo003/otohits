@@ -15,4 +15,4 @@ RUN wget https://cdndl.otohits.net/dl/OtohitsApp_5055_linux_portable.tar.gz \
 COPY . .
 
 
-ENTRYPOINT ["/run.sh"]
+ENTRYPOINT ["sh", "/run.sh"]
