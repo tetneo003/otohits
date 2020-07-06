@@ -10,6 +10,7 @@ RUN apt-get update; \
 
 RUN wget https://cdndl.otohits.net/dl/OtohitsApp_5055_linux_portable.tar.gz \
     && tar -xzf OtohitsApp_5055_linux_portable.tar.gz \
+    && rm OtohitsApp_5055_linux_portable.tar.gz
     && groupadd -r fsviewer \
     && useradd -rm -g otohits otoits \
     && echo 'pcm.!default {\n\
