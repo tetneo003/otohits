@@ -1,3 +1,5 @@
+#!/bin/bash
+
 export "/login:{APPLICATION_KEY}" > otohits.ini
 export "/nosandbox" >> otohits.ini
 
